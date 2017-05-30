@@ -2,7 +2,7 @@
 error_reporting(0);
 $doc = new DOMDocument();
 //alamat provider
-$doc->load('http://localhost/perpustakaan/provider/provider_perpus.php');
+$doc->load('http://localhost/perpustakaan/provider/provider_perpus4.php?username=user1&password=user1');
 ?>
 
 <div id="menu-tengah">

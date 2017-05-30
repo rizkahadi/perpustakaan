@@ -63,7 +63,7 @@
 					echo "Hasil Pencarian Buku : $judul<br><br>";
 	
 					$doc = new DOMDocument();
-					$doc->load('http://localhost/perpustakaan/provider/provider_perpus2.php?judul='.$judul);
+					$doc->load('http://localhost/perpustakaan/provider/provider_perpus4.php?username=user1&password=user1&judul='.$judul);
 					
 					$bukus = $doc->getElementsByTagName("buku");
 			
@@ -117,7 +117,7 @@
 				echo "Hasil Pencarian Buku : $pengarangku<br><br>";
 	
 				$doc = new DOMDocument();
-				$doc->load('http://localhost/perpustakaan/provider/provider_perpus2.php?pengarang='.$pengarangku);
+				$doc->load('http://localhost/perpustakaan/provider/provider_perpus4.php?username=user1&password=user1&pengarang='.$pengarangku);
 					
 				$bukus = $doc->getElementsByTagName("buku");
 			
